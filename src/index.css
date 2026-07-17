@@ -3692,7 +3692,7 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
 }
 
 .partner-svg-logo {
-  max-height: 55px !important; /* Larger logo size */
+  max-height: 70px !important; /* Larger logo size */
   max-width: 135px !important;
   width: auto !important;
   height: auto !important;
@@ -3793,7 +3793,7 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
 }
 
 .form-heading {
-  font-size: 26px !important;
+  font-size: 32px !important;
   font-weight: 700 !important;
   color: #ffffff !important;
   margin-bottom: 25px !important;
@@ -4291,11 +4291,11 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
 /* Aggressive Mobile Overrides for Header and Hero Section */
 @media (max-width: 767px) {
   .guten-image-wrapper img {
-    max-height: 55px !important;
+    max-height: 70px !important;
     width: auto !important;
   }
   .gutenverse-nav-logo img {
-    max-height: 55px !important;
+    max-height: 70px !important;
   }
   .guten-element.guten-liFRuO {
     padding-top: 10px !important;
@@ -4309,7 +4309,7 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
 
 @media (max-width: 767px) {
   .gutenverse-hamburger-menu i {
-    font-size: 26px !important;
+    font-size: 32px !important;
   }
 }
 
@@ -4374,5 +4374,43 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
   .mobile-hero-fix h1.heading-title {
     margin-top: 0 !important;
     padding-top: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile-shift-up {
+    margin-top: -120px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .guten-5ZG97u .guten-container {
+    transform: translateY(-100px);
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile-hero-fix .guten-J9YEEX {
+    top: 0 !important;
+    position: relative !important;
+    margin-top: 20px !important;
+  }
+  .mobile-hero-fix .guten-J9YEEX img {
+    width: 80% !important;
+    margin: 0 auto;
+    display: block;
+  }
+  .mobile-hero-fix .guten-EMa2Ye > .guten-column-wrapper {
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  section.mobile-hero-fix {
+    padding-bottom: 150px !important;
+    overflow: visible !important;
+  }
+  .mobile-hero-fix .guten-J9YEEX {
+    margin-bottom: 50px !important;
   }
 }
