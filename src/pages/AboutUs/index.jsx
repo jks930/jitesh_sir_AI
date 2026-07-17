@@ -11,7 +11,7 @@ export default function AboutUs() {
             <div className="guten-container guten-column-gap-no">
               <div className="wp-block-gutenverse-column guten-element guten-column guten-U7egHI">
                 <div className="guten-column-wrapper" data-id="U7egHI">
-                  <h1 className="wp-block-gutenverse-heading guten-element guten-VyOvyN">
+                  <h1 className="wp-block-gutenverse-heading guten-element guten-VyOvyN" style={{ whiteSpace: 'nowrap', width: 'auto' }}>
                     About <span id="guten-BWYRSh"><span className="guten-text-highlight guten-BPN2dE" id="guten-carAEu">Our Company</span></span>
                   </h1>
                 </div>

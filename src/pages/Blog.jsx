@@ -11,8 +11,8 @@ export default function Blog() {
             <div className="guten-container guten-column-gap-no">
               <div className="wp-block-gutenverse-column guten-element guten-column guten-U7egHI">
                 <div className="guten-column-wrapper" data-id="U7egHI">
-                  <h1 className="wp-block-gutenverse-heading guten-element guten-VyOvyN">
-                    Explore Our Blog &amp; <span id="guten-A2KtaM"><span className="guten-text-highlight guten-lSSTcd" id="guten-MwJkyC">Articles</span></span>
+                  <h1 className="wp-block-gutenverse-heading guten-element guten-VyOvyN" style={{ whiteSpace: 'nowrap', width: 'auto' }}>
+                    Explore Our Blog  &amp; <span id="guten-A2KtaM"><span className="guten-text-highlight guten-lSSTcd" id="guten-MwJkyC">Articles</span></span>
                   </h1>
                 </div>
               </div>

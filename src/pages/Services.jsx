@@ -11,7 +11,7 @@ export default function Services() {
             <div className="guten-container guten-column-gap-no">
               <div className="wp-block-gutenverse-column guten-element guten-column guten-U7egHI">
                 <div className="guten-column-wrapper" data-id="U7egHI">
-                  <h1 className="wp-block-gutenverse-heading guten-element guten-VyOvyN">
+                  <h1 className="wp-block-gutenverse-heading guten-element guten-VyOvyN" style={{ whiteSpace: 'nowrap', width: 'auto' }}>
                     Explore Our Best <span id="guten-26TJ54"><span className="guten-text-highlight guten-04q98k" id="guten-mxUKIK">AI Services</span></span>
                   </h1>
                 </div>
