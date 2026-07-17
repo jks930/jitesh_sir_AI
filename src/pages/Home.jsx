@@ -4,9 +4,9 @@ import Counter from '../components/Counter';
 export default function Home() {
   return (
     <>
-      <div className="guten-lizrFz   entry-content is-layout-constrained guten-post-content guten-element" style={{ paddingLeft: '1%', paddingRight: '1%' }}>
+      <div className="guten-lizrFz desktop-padding entry-content is-layout-constrained guten-post-content guten-element">
             <div className="section-wrapper" data-id="5ZG97u">
-                <section className="wp-block-gutenverse-section guten-element guten-section guten-5ZG97u layout-boxed align-stretch overflow-hidden">
+                <section className="wp-block-gutenverse-section guten-element guten-section guten-5ZG97u layout-boxed align-stretch overflow-hidden mobile-hero-fix">
                     <div className="guten-background-overlay"></div>
                     <div className="guten-container guten-column-gap-no">
                         <div className="wp-block-gutenverse-column guten-element guten-column guten-5IOSam">

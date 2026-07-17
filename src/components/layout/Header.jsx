@@ -218,7 +218,7 @@ export default function Header() {
                         <div className="guten-data">
                             <div data-var="stickyDataliFRuO" data-value="{&quot;sticky&quot;:{&quot;Desktop&quot;:true,&quot;Tablet&quot;:false},&quot;stickyShowOn&quot;:&quot;both&quot;,&quot;stickyPosition&quot;:&quot;top&quot;,&quot;stickyEase&quot;:&quot;power2.inOut&quot;,&quot;stickyDuration&quot;:0.25,&quot;topSticky&quot;:{&quot;Desktop&quot;:{&quot;point&quot;:&quot;0&quot;,&quot;unit&quot;:&quot;px&quot;},&quot;Tablet&quot;:{&quot;unit&quot;:&quot;px&quot;}},&quot;bottomSticky&quot;:{&quot;Desktop&quot;:{&quot;point&quot;:&quot;0&quot;,&quot;unit&quot;:&quot;px&quot;}}}"></div>
                         </div>
-                        <div className="guten-container guten-column-gap-no">
+                        <div className="guten-container guten-column-gap-no" style={{ display: 'flex', flexWrap: 'nowrap', alignItems: 'center', justifyContent: 'space-between' }}>
                             <div className="wp-block-gutenverse-column guten-element guten-column guten-9I4DZd">
                                 <div className="guten-column-wrapper" data-id="9I4DZd">
                                     <div className="wp-block-gutenverse-image guten-element guten-image guten-W0zRTr"><Link className="guten-image-wrapper" to="/"><img decoding="async" className="gutenverse-image-box-filled" src="/logo (4).png" height="188" width="800" alt="" /></Link></div>

@@ -4273,3 +4273,106 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
   from { opacity: 0; transform: translateY(5px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+@media (min-width: 768px) { .desktop-padding { padding-left: 1%; padding-right: 1%; } }
+@media (max-width: 767px) { .desktop-padding { padding-left: 0 !important; padding-right: 0 !important; } }
+
+/* Mobile Overrides for Header and Hero Section */
+@media (max-width: 767px) {
+  .guten-element.guten-liFRuO {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .guten-element.guten-5ZG97u {
+    padding-top: 55px !important;
+  }
+}
+
+/* Aggressive Mobile Overrides for Header and Hero Section */
+@media (max-width: 767px) {
+  .guten-image-wrapper img {
+    max-height: 55px !important;
+    width: auto !important;
+  }
+  .gutenverse-nav-logo img {
+    max-height: 55px !important;
+  }
+  .guten-element.guten-liFRuO {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-bottom: -80px !important;
+  }
+  .guten-element.guten-5ZG97u {
+    padding-top: 50px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .gutenverse-hamburger-menu i {
+    font-size: 26px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .guten-element.guten-liFRuO {
+    height: 70px !important;
+    min-height: 70px !important;
+    padding: 0 10px !important;
+    margin-bottom: -70px !important;
+  }
+  .guten-element.guten-liFRuO .guten-column-wrapper {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .guten-element.guten-5ZG97u {
+    padding-top: 80px !important;
+  }
+  .guten-D3Lo95 {
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-wrapper.guten-section-wrapper.section-guten-liFRuO {
+    position: absolute !important;
+    width: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 999 !important;
+  }
+  .guten-element.guten-liFRuO {
+    height: 70px !important;
+    min-height: 70px !important;
+    margin-bottom: 0 !important;
+    background: transparent !important; /* Let wrapper or inner handle it, or keep original */
+  }
+  .guten-element.guten-5ZG97u {
+    padding-top: 55px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .guten-5ZG97u .guten-column-wrapper {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+  .guten-D3Lo95 .heading-title {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  section.mobile-hero-fix {
+    padding-top: 70px !important;
+    margin-top: -60px !important; /* Pull up aggressively */
+  }
+  .mobile-hero-fix .guten-column-wrapper {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+  .mobile-hero-fix h1.heading-title {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+}
