@@ -227,8 +227,8 @@ export default function Header() {
 
 
 
-                            <div className="wp-block-gutenverse-column guten-element guten-column guten-NKDRpm">
-                                <div className="guten-column-wrapper" data-id="NKDRpm">
+                            <div className="wp-block-gutenverse-column guten-element guten-column guten-NKDRpm" style={{ flexGrow: 1 }}>
+                                <div className="guten-column-wrapper" data-id="NKDRpm" style={{ width: '100%' }}>
                                     <div id="guten-hV9rrC" className="guten-element guten-nav-menu nav-menu break-point-tablet submenu-click-title " data-item-indicator="gtn gtn-angle-down-solid" data-item-indicator-type="icon" data-item-indicator-svg="" data-close-on-click="1" aria-label="">
                                         <div className="gutenverse-hamburger-wrapper">
                                             <button className="gutenverse-hamburger-menu" aria-label="" onClick={(e) => { e.preventDefault(); setIsMenuOpen(!isMenuOpen); }}>
@@ -239,7 +239,7 @@ export default function Header() {
                                         <div className={`gutenverse-menu-wrapper ${isMenuOpen ? 'active' : ''}`}>
                                             <div className="guten-popup-close mobile-menu-close" onClick={() => setIsMenuOpen(false)}><i className="gtn gtn-x-line"></i></div>
                                             <div className="gutenverse-menu-container">
-                                                <ul id="menu-artifice-1" className="gutenverse-menu">
+                                                <ul id="menu-artifice-1" className="gutenverse-menu" style={{ width: '100%', display: 'flex' }}>
                                                     <li id="menu-item-51" className="menu-item-51  menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home"><Link to="/" aria-label="Home" onClick={() => setIsMenuOpen(false)}>Home</Link></li>
                                                     <li id="menu-item-52" className="menu-item-52  menu-item menu-item-type-custom menu-item-object-custom"><Link to="/about-us" aria-label="About Us" onClick={() => setIsMenuOpen(false)}>About Us</Link></li>
                                                     <li id="menu-item-53" className="menu-item-53  menu-item menu-item-type-custom menu-item-object-custom"><Link to="/services/" aria-label="Services" onClick={() => setIsMenuOpen(false)}>Services</Link></li>
@@ -250,7 +250,7 @@ export default function Header() {
                                                         </ul>
                                                     </li>
                                                     <li id="menu-item-57" className="menu-item-57  menu-item menu-item-type-custom menu-item-object-custom"><Link to="/blog/" aria-label="Blog">Blog</Link></li>
-                                                    <li id="menu-item-58" className="menu-item-58  menu-item menu-item-type-custom menu-item-object-custom"><Link to="/contact/" aria-label="Contact">Contact</Link></li>
+                                                    <li id="menu-item-58" className="menu-item-58  menu-item menu-item-type-custom menu-item-object-custom" style={{ marginLeft: 'auto', paddingRight: '20px', display: 'flex', alignItems: 'center' }}><Link to="/contact/" aria-label="Contact Us" style={{ backgroundColor: '#FF9800', color: '#fff', padding: '10px 25px', borderRadius: '50px', fontWeight: 'bold', textDecoration: 'none', height: 'fit-content', lineHeight: 'normal', whiteSpace: 'nowrap' }}>Contact Us</Link></li>
                                                 </ul>
                                             </div>
                                             <div>

@@ -15,7 +15,7 @@ export default function Footer() {
                                             <div className="wp-block-gutenverse-column guten-element guten-column guten-WLUBdI">
                                                 <div className="guten-column-wrapper" data-id="WLUBdI">
                                                     <div className="guten-element guten-icon-list guten-9p2p3i">
-                                                        <div className=" list-wrapper inline-icon-list">
+                                                        <div className=" list-wrapper inline-icon-list" style={{ display: 'flex', flexWrap: 'nowrap', alignItems: 'center', gap: '8px' }}>
                                                             <div className="guten-element guten-icon-list-item guten-iHDP0i">
                                                                 <div className="list-divider"></div><a id="guten-iHDP0i" href="/"><i className="fas fa-check"></i><span className="list-text ">Home</span></a></div>
 
@@ -67,7 +67,7 @@ export default function Footer() {
                                             <div className="wp-block-gutenverse-column guten-element guten-column guten-GeNgBy">
                                                 <div className="guten-column-wrapper" data-id="GeNgBy">
                                                     <div className="guten-element guten-icon-list guten-FbDVSw">
-                                                        <div className=" list-wrapper inline-icon-list">
+                                                        <div className=" list-wrapper inline-icon-list" style={{ display: 'flex', flexWrap: 'nowrap', alignItems: 'center', gap: '8px' }}>
                                                             <div className="guten-element guten-icon-list-item guten-vXBb1g">
                                                                 <div className="list-divider"></div><Link id="guten-vXBb1g" to="/"><i className="fas fa-check"></i><span className="list-text ">Home</span></Link></div>
 
@@ -120,19 +120,19 @@ export default function Footer() {
                                         <div className="guten-container guten-column-gap-no">
                                              <div className="wp-block-gutenverse-column guten-element guten-column guten-V8oEUn">
                                                  <div className="guten-column-wrapper" data-id="V8oEUn">
-                                                     <div className="footer-contact-bar">
-                                                         <div className="footer-contact-item">
+                                                     <div className="footer-contact-bar" style={{ display: 'flex', flexWrap: 'nowrap', alignItems: 'center', gap: '24px' }}>
+                                                         <div className="footer-contact-item" style={{ display: 'flex', alignItems: 'center', gap: '8px', whiteSpace: 'nowrap' }}>
                                                              <i className="fas fa-envelope"></i>
                                                              <span><strong>Email:</strong> <a href="mailto:info@arivainfotech.com">info@arivainfotech.com</a></span>
-                                                        </div>
-                                                         <div className="footer-contact-item">
+                                                         </div>
+                                                         <div className="footer-contact-item" style={{ display: 'flex', alignItems: 'center', gap: '8px', whiteSpace: 'nowrap' }}>
                                                              <i className="fas fa-phone-alt"></i>
                                                              <span><strong>Call:</strong> <a href="tel:+19089550321">+1-908-955-0321</a></span>
-                                                        </div>
-                                                         <div className="footer-contact-item">
+                                                         </div>
+                                                         <div className="footer-contact-item" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                                                              <i className="fas fa-map-marker-alt"></i>
                                                              <span><strong>Address:</strong> Ariva Infotech, 330 Changebridge Road, Suite 101, Pine Brook, NJ-07058</span>
-                                                        </div>
+                                                         </div>
                                                      </div>
                                                      <div className="guten-element gutenverse-text-editor guten-lyUnu6">
                                                          <div className="text-content-inner">
