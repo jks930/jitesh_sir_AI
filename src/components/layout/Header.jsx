@@ -237,7 +237,6 @@ export default function Header() {
                                         </div>
                                         <div className={`guten-nav-overlay ${isMenuOpen ? 'active' : ''}`} onClick={() => setIsMenuOpen(false)}></div>
                                         <div className={`gutenverse-menu-wrapper ${isMenuOpen ? 'active' : ''}`}>
-                                            <div className="guten-popup-close mobile-menu-close" onClick={() => setIsMenuOpen(false)}><i className="gtn gtn-x-line"></i></div>
                                             <div className="gutenverse-menu-container">
                                                 <ul id="menu-artifice-1" className="gutenverse-menu" style={{ width: '100%', display: 'flex' }}>
                                                     <li id="menu-item-51" className="menu-item-51  menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home"><Link to="/" aria-label="Home" onClick={() => setIsMenuOpen(false)}>Home</Link></li>
@@ -258,7 +257,7 @@ export default function Header() {
                                                     <div className="gutenverse-nav-site-title">
                                                         <Link aria-label="" to="/" className="gutenverse-nav-logo"><img decoding="async" loading="eager" src="/logo (4).png" alt="Ariva Infotech - AI & Robotics" width="800" height="188" /></Link>
                                                     </div>
-                                                    <button className="gutenverse-close-menu" aria-label=""><i aria-hidden="true" className="gtn gtn-x-line"></i></button>
+                                                    <button className="gutenverse-close-menu" aria-label="" onClick={() => setIsMenuOpen(false)}><i aria-hidden="true" className="gtn gtn-x-line"></i></button>
                                                 </div>
                                             </div>
                                         </div>
