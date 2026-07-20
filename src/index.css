@@ -4309,7 +4309,7 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
     margin-bottom: -80px !important;
   }
   .guten-element.guten-5ZG97u {
-    padding-top: 50px !important;
+    padding-top: 10px !important;
   }
 }
 
@@ -4346,11 +4346,11 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
     margin: 0 !important;
   }
 
-  /* Shift Home Hero Text Higher Up */
+  /* Shift Home Hero Text Higher Up (Closer to Header) */
   .guten-element.guten-5ZG97u,
   section.guten-5ZG97u,
   section.mobile-hero-fix {
-    padding-top: 35px !important;
+    padding-top: 10px !important;
     margin-top: 0 !important;
   }
 
@@ -4360,7 +4360,11 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
     margin-top: 0 !important;
   }
 
-  .guten-D3Lo95,
+  .guten-D3Lo95 {
+    margin-top: -15px !important;
+    padding-top: 0 !important;
+  }
+
   .guten-D3Lo95 .heading-title,
   .mobile-hero-fix h1.heading-title {
     margin-top: 0 !important;
