@@ -4295,7 +4295,8 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
 
 /* Aggressive Mobile Overrides for Header and Hero Section */
 @media (max-width: 767px) {
-  .guten-image-wrapper img {
+  .gutenverse-nav-logo .guten-image-wrapper img,
+  .guten-liFRuO .guten-image-wrapper img {
     max-height: 70px !important;
     width: auto !important;
   }
@@ -4388,11 +4389,7 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
   }
 }
 
-@media (max-width: 767px) {
-  .guten-5ZG97u .guten-container {
-    transform: translateY(-100px);
-  }
-}
+/* translateY removed - it was creating phantom gap below hero */
 
 @media (max-width: 767px) {
   .mobile-hero-fix .guten-J9YEEX {
@@ -4412,11 +4409,11 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
 
 @media (max-width: 767px) {
   section.mobile-hero-fix {
-    padding-bottom: 150px !important;
+    padding-bottom: 0px !important;
     overflow: visible !important;
   }
   .mobile-hero-fix .guten-J9YEEX {
-    margin-bottom: 50px !important;
+    margin-bottom: 0px !important;
   }
 }
 
@@ -4472,24 +4469,41 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
 /* Reduce gap between sections on mobile */
 @media (max-width: 767px) {
   .wp-block-gutenverse-section {
-    padding-top: 30px !important;
-    padding-bottom: 30px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
   .section-wrapper {
-    padding: 0 !important;
-    margin: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
   }
-  
-  /* specifically fix the gap between hero and features section */
-  .guten-element.guten-5ZG97u {
-    padding-bottom: 10px !important;
+
+  /* Hero section - zero bottom padding */
+  .guten-element.guten-5ZG97u,
+  section.guten-5ZG97u,
+  section.mobile-hero-fix {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
   }
-  .guten-element.guten-JgY02C {
-    padding-top: 10px !important;
+
+  /* Why Choose section - pull up tight against hero */
+  .section-wrapper[data-id="JgY02C"] {
+    margin-top: -30px !important;
   }
-  .guten-vEG60J {
+  .guten-element.guten-JgY02C,
+  section.guten-JgY02C {
+    padding-top: 15px !important;
+  }
+
+  /* Kill all extra spacing on hero inner elements */
+  .guten-vEG60J,
+  .guten-nbmTlj,
+  .guten-z5rvl3 {
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
   }
@@ -4498,3 +4512,493 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
     margin-bottom: 0 !important;
   }
 }
+
+/* ===== Mobile Fix: Trusted by Big Company Section ===== */
+@media (max-width: 767px) {
+  .guten-element.guten-3w00BM,
+  section.guten-3w00BM {
+    padding-top: 25px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .guten-zXf7yH {
+    text-align: center !important;
+    margin-bottom: 15px !important;
+  }
+
+  .guten-zXf7yH .heading-title {
+    font-size: 22px !important;
+    line-height: 1.3 !important;
+    text-align: center !important;
+  }
+
+  /* Inner section & container for 2-column logo grid */
+  .guten-z6ESw4 .guten-container {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px 0 !important;
+    padding: 0 5px !important;
+  }
+
+  /* Heading column full width */
+  .guten-3w00BM .guten-XwIKPC {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    margin-bottom: 15px !important;
+  }
+
+  /* Each logo box takes 48% width (2 logos per row) */
+  .guten-3w00BM .guten-Ckc4NY,
+  .guten-3w00BM .guten-d9nE43,
+  .guten-3w00BM .guten-H1B3sd,
+  .guten-3w00BM .guten-m1uh4f {
+    width: 48% !important;
+    flex: 0 0 48% !important;
+    max-width: 48% !important;
+    margin: 4px 1% !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .guten-3w00BM .guten-column-wrapper {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .guten-3w00BM .guten-image-wrapper {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: rgba(255, 255, 255, 0.04) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px !important;
+    padding: 12px 8px !important;
+    min-height: 48px !important;
+    box-sizing: border-box !important;
+  }
+
+  .guten-3w00BM .partner-svg-logo {
+    width: 100% !important;
+    max-width: 120px !important;
+    height: 32px !important;
+    display: block !important;
+    margin: 0 auto !important;
+  }
+}
+
+/* ===== Mobile Fix: Transform Your Business Section ===== */
+@media (max-width: 767px) {
+  .guten-element.guten-QI7oTd,
+  section.guten-QI7oTd {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+  }
+
+  .guten-QI7oTd .guten-container,
+  .guten-DDcBbe .guten-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 0 10px !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .guten-NhZtkJ,
+  .guten-dCP0SG,
+  .guten-2jkmqS,
+  .guten-zvpym0 {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    margin: 0 0 15px 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Main Heading: Transform Your Business with AI Technology */
+  .guten-kzotyI {
+    text-align: center !important;
+    margin-bottom: 15px !important;
+    width: 100% !important;
+  }
+
+  .guten-kzotyI .heading-section,
+  .guten-kzotyI .heading-title {
+    text-align: center !important;
+    width: 100% !important;
+    display: block !important;
+    margin: 0 auto !important;
+  }
+
+  .guten-kzotyI h2.heading-title,
+  .guten-kzotyI span.heading-title,
+  .guten-kzotyI span.heading-focus {
+    font-size: 23px !important;
+    line-height: 1.35 !important;
+    text-align: center !important;
+  }
+
+  .guten-kzotyI span.heading-focus {
+    display: inline-block !important;
+  }
+
+  /* Description paragraph text */
+  .guten-MA6MlY {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    padding: 0 5px !important;
+    box-sizing: border-box !important;
+  }
+
+  .guten-MA6MlY p {
+    font-size: 14.5px !important;
+    line-height: 1.65 !important;
+    text-align: center !important;
+    color: rgba(255, 255, 255, 0.85) !important;
+    margin: 0 auto !important;
+  }
+
+  /* Learn More Button */
+  .guten-3VXs7i {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 15px auto !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .guten-3VXs7i .guten-button {
+    padding: 10px 24px !important;
+    font-size: 14px !important;
+  }
+
+  /* Section Images */
+  .guten-5OfcqN img,
+  .guten-pKfqzd img {
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    border-radius: 12px !important;
+    display: block !important;
+    margin: 10px auto !important;
+  }
+}
+
+/* ===== Mobile Fix: Completed Projects Section ===== */
+@media (max-width: 767px) {
+  .guten-element.guten-cfVL4h,
+  section.guten-cfVL4h {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .guten-cfVL4h .guten-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 0 15px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Title: "Take a Look at Our Completed Projects" */
+  .guten-TVcpUK {
+    text-align: center !important;
+    margin-bottom: 15px !important;
+  }
+
+  .guten-TVcpUK .heading-title {
+    font-size: 24px !important;
+    line-height: 1.3 !important;
+    text-align: center !important;
+  }
+
+  /* Description paragraph */
+  .guten-j4TBsD {
+    text-align: center !important;
+    margin-bottom: 25px !important;
+  }
+
+  .guten-j4TBsD p {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    text-align: center !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  /* Inner section & container for project cards */
+  .guten-oAmhYo .guten-container {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  /* Project columns (Agriculture & Robotic) */
+  .guten-SgRP6W,
+  .guten-jttMTs {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    margin-bottom: 20px !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Project card images */
+  .guten-Q0kGHV,
+  .guten-O72mIX {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .guten-Q0kGHV img,
+  .guten-O72mIX img {
+    width: 100% !important;
+    height: 210px !important;
+    object-fit: cover !important;
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    display: block !important;
+  }
+
+  /* Project card content boxes */
+  .guten-aYMyxT,
+  .guten-03GAwH {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-top: none !important;
+    border-bottom-left-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+    padding: 20px 16px !important;
+    box-sizing: border-box !important;
+    text-align: left !important;
+  }
+
+  .guten-aYMyxT .title,
+  .guten-03GAwH .title {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    margin-bottom: 10px !important;
+    text-align: left !important;
+  }
+
+  .guten-aYMyxT .icon-box-description,
+  .guten-03GAwH .icon-box-description {
+    font-size: 13.5px !important;
+    line-height: 1.5 !important;
+    color: rgba(255, 255, 255, 0.75) !important;
+    margin-bottom: 15px !important;
+    text-align: left !important;
+  }
+
+  /* View details buttons inside cards */
+  .guten-46dw0L,
+  .guten-GdywiE {
+    margin-top: 10px !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+
+  .guten-46dw0L .guten-button,
+  .guten-GdywiE .guten-button {
+    padding: 8px 16px !important;
+    font-size: 13px !important;
+  }
+
+  /* Bottom "View All Projects" Button */
+  .guten-kXu3Qu {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 25px !important;
+    width: 100% !important;
+  }
+}
+
+/* ===== Responsive Visibility Utility Fixes (Prevents Double Footer / Header Elements) ===== */
+@media (max-width: 767px) {
+  .hide-mobile,
+  .hide-tablet-mobile {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hide-tablet {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .hide-desktop {
+    display: none !important;
+  }
+}
+
+/* Specific Footer visibility rules: Desktop footer (jtbkEA) vs Mobile footer (KSBWXi) */
+@media (max-width: 767px) {
+  .section-wrapper[data-id="jtbkEA"],
+  .guten-jtbkEA {
+    display: none !important;
+  }
+  .section-wrapper[data-id="KSBWXi"],
+  .guten-KSBWXi {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-wrapper[data-id="KSBWXi"],
+  .guten-KSBWXi {
+    display: none !important;
+  }
+  .section-wrapper[data-id="jtbkEA"],
+  .guten-jtbkEA {
+    display: block !important;
+  }
+}
+
+/* ===== Mobile Fix: Fun Facts / Stats Section ===== */
+@media (max-width: 767px) {
+  .guten-element.guten-EVlLGe,
+  section.guten-EVlLGe {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+  }
+
+  .guten-EVlLGe .guten-container {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: stretch !important;
+    gap: 10px 0 !important;
+    padding: 0 5px !important;
+  }
+
+  .guten-EVlLGe .guten-d7UrL6,
+  .guten-EVlLGe .guten-2Vf7Lt,
+  .guten-EVlLGe .guten-mfT4cA,
+  .guten-EVlLGe .guten-ye3ZVl {
+    width: 48% !important;
+    flex: 0 0 48% !important;
+    max-width: 48% !important;
+    margin: 4px 1% !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .guten-EVlLGe .guten-column-wrapper {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100% !important;
+  }
+
+  .guten-EVlLGe .guten-fun-fact {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 12px !important;
+    padding: 16px 8px !important;
+    height: 100% !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  .guten-EVlLGe .fun-fact-inner {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .guten-EVlLGe .icon-box {
+    margin-bottom: 6px !important;
+    text-align: center !important;
+  }
+
+  .guten-EVlLGe .icon i {
+    font-size: 24px !important;
+    color: #2edaf1 !important;
+  }
+
+  .guten-EVlLGe .content {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .guten-EVlLGe .number-wrapper {
+    font-size: 24px !important;
+    font-weight: 800 !important;
+    line-height: 1.2 !important;
+    color: #ffffff !important;
+    margin-bottom: 4px !important;
+    text-align: center !important;
+  }
+
+  .guten-EVlLGe .number-wrapper .super,
+  .guten-EVlLGe .number-wrapper .suffix {
+    font-size: 18px !important;
+    color: #2edaf1 !important;
+  }
+
+  .guten-EVlLGe .title {
+    font-size: 12.5px !important;
+    line-height: 1.3 !important;
+    color: rgba(255, 255, 255, 0.75) !important;
+    text-align: center !important;
+    display: block !important;
+  }
+}
+
+/* ===== Global Mobile Alignment & Image Protection Rule ===== */
+@media (max-width: 767px) {
+  /* Prevent any section image from being squished or overflowing */
+  .wp-block-gutenverse-image img,
+  .guten-image img,
+  .guten-image-wrapper img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Header logo exception */
+  .gutenverse-nav-logo img,
+  .gutenverse-nav-logo .guten-image-wrapper img,
+  .guten-liFRuO .guten-image-wrapper img {
+    max-height: 55px !important;
+    width: auto !important;
+  }
+
+  /* Ensure text headings & paragraphs fit within mobile viewport cleanly */
+  .heading-title, .heading-focus {
+    max-width: 100% !important;
+    word-break: break-word !important;
+  }
+}
+
+
+
+
+
