@@ -3461,6 +3461,11 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
     margin-bottom: 0 !important;
   }
 
+  .guten-cfVL4h {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
   /* Hero section needs padding-top for fixed header clearance */
   section.guten-5ZG97u,
   .guten-5ZG97u {
@@ -4412,5 +4417,84 @@ header.wp-block-template-part { position: absolute !important; top: 0 !important
   }
   .mobile-hero-fix .guten-J9YEEX {
     margin-bottom: 50px !important;
+  }
+}
+
+/* Global fix for invisible animated images (Hero Robot) */
+.animated {
+  opacity: 1 !important;
+  visibility: visible !important;
+  animation: none !important;
+}
+
+/* Ensure Hero Section is relative so absolute robot stays inside */
+.guten-5ZG97u {
+  position: relative !important;
+}
+
+/* Desktop Hero Robot Positioning (Huge and Centered) */
+@media (min-width: 768px) {
+  .guten-J9YEEX {
+    position: absolute !important;
+    top: auto !important;
+    bottom: -30px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 850px !important;
+    max-width: none !important;
+    display: block !important;
+    z-index: 0 !important;
+    pointer-events: none !important;
+  }
+  .guten-J9YEEX .guten-image-wrapper {
+    width: 100% !important;
+  }
+  .guten-J9YEEX img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: none !important;
+  }
+  
+  /* Elevate text columns above robot */
+  .guten-5IOSam, .guten-JOSwaF {
+    position: relative !important;
+    z-index: 10 !important;
+  }
+}
+
+/* Mobile Hero Robot Positioning */
+@media (max-width: 767px) {
+  .guten-EMa2Ye {
+    display: none !important;
+  }
+}
+
+/* Reduce gap between sections on mobile */
+@media (max-width: 767px) {
+  .wp-block-gutenverse-section {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .section-wrapper {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  /* specifically fix the gap between hero and features section */
+  .guten-element.guten-5ZG97u {
+    padding-bottom: 10px !important;
+  }
+  .guten-element.guten-JgY02C {
+    padding-top: 10px !important;
+  }
+  .guten-vEG60J {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .guten-JOSwaF {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
   }
 }

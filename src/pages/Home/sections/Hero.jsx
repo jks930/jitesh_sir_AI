@@ -51,7 +51,7 @@ export default function Hero() {
 
 
 
-                        <div className="wp-block-gutenverse-column guten-element guten-column guten-JOSwaF hide-tablet hide-mobile">
+                        <div className="wp-block-gutenverse-column guten-element guten-column guten-JOSwaF">
                             <div className="guten-column-wrapper" data-id="JOSwaF">
                                 <div className="guten-element guten-wrap-helper no-margin guten-nbmTlj block">
                                     <div className="guten-inner-wrap" data-id="nbmTlj">

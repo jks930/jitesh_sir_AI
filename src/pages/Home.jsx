@@ -41,8 +41,8 @@ export default function Home() {
                                             <div className="guten-container guten-column-gap-no">
                                                 <div className="wp-block-gutenverse-column guten-element guten-column guten-ioCgEg">
                                                     <div className="guten-column-wrapper" data-id="ioCgEg">
-                                                        <div className="wp-block-gutenverse-image guten-element guten-image guten-J9YEEX animated  slow desktop-fadeIn">
-                                                            <div className="guten-image-wrapper"><img decoding="async" className="gutenverse-image-box-filled" src="/wp-content/uploads/sites/120/2025/08/robot-artifice.webp" height="587" width="880" /></div>
+                                                        <div className="wp-block-gutenverse-image guten-element guten-image guten-J9YEEX animated slow desktop-fadeIn" style={{ display: 'block', position: 'relative', top: '0', zIndex: 99, opacity: 1, visibility: 'visible', margin: '20px auto', width: '100%', maxWidth: '600px' }}>
+                                                            <div className="guten-image-wrapper"><img decoding="async" className="gutenverse-image-box-filled" src="/wp-content/uploads/sites/120/2025/08/robot-artifice.webp" height="587" width="880" style={{ display: 'block', width: '100%', height: 'auto', margin: '0 auto' }} /></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -54,7 +54,7 @@ export default function Home() {
 
 
 
-                            <div className="wp-block-gutenverse-column guten-element guten-column guten-JOSwaF hide-tablet hide-mobile">
+                            <div className="wp-block-gutenverse-column guten-element guten-column guten-JOSwaF">
                                 <div className="guten-column-wrapper" data-id="JOSwaF">
                                     <div className="guten-element guten-wrap-helper no-margin guten-nbmTlj block">
                                         <div className="guten-inner-wrap" data-id="nbmTlj">
