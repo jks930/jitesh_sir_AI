@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Blog() {
   return (
@@ -33,16 +34,16 @@ export default function Blog() {
                           {/* Post 1 */}
                           <article className="guten-post post-270 post type-post status-publish format-standard has-post-thumbnail hentry category-robotics tag-industries">
                             <div className="guten-thumb">
-                              <a aria-label="Transforming Industries and Changing Lives with AI" href="/blog">
+                              <Link aria-label="Transforming Industries and Changing Lives with AI" to="/blog/transforming-industries-ai">
                                 <div className="thumbnail-container">
                                   <img loading="eager" width="1920" height="1280" src="/wp-content/uploads/sites/120/2025/08/robotic-arm-in-automated-cafe.webp" className="attachment-full size-full wp-post-image" alt="" />
                                   <div className="guten-overlay"></div>
                                 </div>
-                              </a>
+                              </Link>
                             </div>
                             <div className="guten-postblock-content">
                               <h4 className="guten-post-title">
-                                <a aria-label="Transforming Industries and Changing Lives with AI" href="/blog">Transforming Industries and Changing Lives with AI</a>
+                                <Link aria-label="Transforming Industries and Changing Lives with AI" to="/blog/transforming-industries-ai">Transforming Industries and Changing Lives with AI</Link>
                               </h4>
                               <div className="guten-post-excerpt">
                                 <p>Discover how Artificial Intelligence and advanced robotic automation are revolutionizing heavy industries, cafe systems, and smart factory lines...</p>
@@ -53,16 +54,16 @@ export default function Blog() {
                           {/* Post 2 */}
                           <article className="guten-post post-267 post type-post status-publish format-standard has-post-thumbnail hentry category-insight tag-robotics">
                             <div className="guten-thumb">
-                              <a aria-label="Exploring the Ethics of AI and Robotics in Society" href="/blog">
+                              <Link aria-label="Exploring the Ethics of AI and Robotics in Society" to="/blog/ethics-of-ai-robotics">
                                 <div className="thumbnail-container">
                                   <img loading="eager" width="1920" height="1280" src="/wp-content/uploads/sites/120/2025/08/man-using-virtual-reality-simulator.webp" className="attachment-full size-full wp-post-image" alt="" />
                                   <div className="guten-overlay"></div>
                                 </div>
-                              </a>
+                              </Link>
                             </div>
                             <div className="guten-postblock-content">
                               <h4 className="guten-post-title">
-                                <a aria-label="Exploring the Ethics of AI and Robotics in Society" href="/blog">Exploring the Ethics of AI and Robotics in Society</a>
+                                <Link aria-label="Exploring the Ethics of AI and Robotics in Society" to="/blog/ethics-of-ai-robotics">Exploring the Ethics of AI and Robotics in Society</Link>
                               </h4>
                               <div className="guten-post-excerpt">
                                 <p>Delve into the ethical challenges, data privacy standards, and socio-economic responsibilities of deploying neural networks and humanoid robots in modern society...</p>
@@ -73,16 +74,16 @@ export default function Blog() {
                           {/* Post 3 */}
                           <article className="guten-post post-264 post type-post status-publish format-standard has-post-thumbnail hentry category-business tag-ai tag-digital-marketing">
                             <div className="guten-thumb">
-                              <a aria-label="How AI is Changing the Face of Digital Marketing" href="/blog">
+                              <Link aria-label="How AI is Changing the Face of Digital Marketing" to="/blog/ai-digital-marketing">
                                 <div className="thumbnail-container">
                                   <img loading="eager" width="1920" height="1280" src="/wp-content/uploads/sites/120/2025/08/female-employee-talking-to-ai-hologram.webp" className="attachment-full size-full wp-post-image" alt="" />
                                   <div className="guten-overlay"></div>
                                 </div>
-                              </a>
+                              </Link>
                             </div>
                             <div className="guten-postblock-content">
                               <h4 className="guten-post-title">
-                                <a aria-label="How AI is Changing the Face of Digital Marketing" href="/blog">How AI is Changing the Face of Digital Marketing</a>
+                                <Link aria-label="How AI is Changing the Face of Digital Marketing" to="/blog/ai-digital-marketing">How AI is Changing the Face of Digital Marketing</Link>
                               </h4>
                               <div className="guten-post-excerpt">
                                 <p>Learn how predictive analytics, neural language models, and AI-driven consumer chatbots are reshaping search engines and digital marketing operations...</p>
@@ -93,16 +94,16 @@ export default function Blog() {
                           {/* Post 4 */}
                           <article className="guten-post post-665 post type-post status-publish format-standard has-post-thumbnail hentry category-insight tag-ai">
                             <div className="guten-thumb">
-                              <a aria-label="Natural Language Processing: The Future of Communication" href="/blog">
+                              <Link aria-label="Natural Language Processing: The Future of Communication" to="/blog/natural-language-processing">
                                 <div className="thumbnail-container">
                                   <img loading="eager" width="1920" height="1080" src="/wp-content/uploads/sites/120/2025/08/young-ai-programmers-and-it-software-developers-1.webp" className="attachment-full size-full wp-post-image" alt="" />
                                   <div className="guten-overlay"></div>
                                 </div>
-                              </a>
+                              </Link>
                             </div>
                             <div className="guten-postblock-content">
                               <h4 className="guten-post-title">
-                                <a aria-label="Natural Language Processing: The Future of Communication" href="/blog">Natural Language Processing: The Future of Communication</a>
+                                <Link aria-label="Natural Language Processing: The Future of Communication" to="/blog/natural-language-processing">Natural Language Processing: The Future of Communication</Link>
                               </h4>
                               <div className="guten-post-excerpt">
                                 <p>Explore how Large Language Models, semantic understanding, and context-aware chat pipelines are changing customer care channels...</p>
@@ -113,19 +114,19 @@ export default function Blog() {
                           {/* Post 5 */}
                           <article className="guten-post post-667 post type-post status-publish format-standard has-post-thumbnail hentry category-business tag-robotics">
                             <div className="guten-thumb">
-                              <a aria-label="Exploring the Relationship Between AI and Creativity" href="/blog">
+                              <Link aria-label="The Future of Robotics: Beyond the Factory Floor" to="/blog/future-of-robotics">
                                 <div className="thumbnail-container">
                                   <img loading="eager" width="1920" height="1080" src="/wp-content/uploads/sites/120/2025/08/robot-young.webp" className="attachment-full size-full wp-post-image" alt="" />
                                   <div className="guten-overlay"></div>
                                 </div>
-                              </a>
+                              </Link>
                             </div>
                             <div className="guten-postblock-content">
                               <h4 className="guten-post-title">
-                                <a aria-label="Exploring the Relationship Between AI and Creativity" href="/blog">Exploring the Relationship Between AI and Creativity</a>
+                                <Link aria-label="The Future of Robotics: Beyond the Factory Floor" to="/blog/future-of-robotics">The Future of Robotics: Beyond the Factory Floor</Link>
                               </h4>
                               <div className="guten-post-excerpt">
-                                <p>Investigate the boundary of machine learning models in generating artwork, writing clean code, and creating musical compositions...</p>
+                                <p>Investigate how collaborative robots, surgical bots, and autonomous drones are taking robotics out of factories and into everyday life...</p>
                               </div>
                             </div>
                           </article>
@@ -133,19 +134,19 @@ export default function Blog() {
                           {/* Post 6 */}
                           <article className="guten-post post-670 post type-post status-publish format-standard has-post-thumbnail hentry category-robotics tag-robotics">
                             <div className="guten-thumb">
-                              <a aria-label="The Role of AI and Robotics in Climate Change Mitigation" href="/blog">
+                              <Link aria-label="Machine Learning: The Competitive Edge Every Business Needs" to="/blog/machine-learning-business">
                                 <div className="thumbnail-container">
                                   <img loading="eager" width="1920" height="1080" src="/wp-content/uploads/sites/120/2025/08/neon-ai-on-a-keyboard-1.webp" className="attachment-full size-full wp-post-image" alt="" />
                                   <div className="guten-overlay"></div>
                                 </div>
-                              </a>
+                              </Link>
                             </div>
                             <div className="guten-postblock-content">
                               <h4 className="guten-post-title">
-                                <a aria-label="The Role of AI and Robotics in Climate Change Mitigation" href="/blog">The Role of AI and Robotics in Climate Change Mitigation</a>
+                                <Link aria-label="Machine Learning: The Competitive Edge Every Business Needs" to="/blog/machine-learning-business">Machine Learning: The Competitive Edge Every Business Needs</Link>
                               </h4>
                               <div className="guten-post-excerpt">
-                                <p>See how AI energy grid optimization and automated waste sorting robotic arrays are actively contributing to lower carbon emissions globally...</p>
+                                <p>Discover how companies harnessing ML today for demand forecasting and operational automation are building an insurmountable edge...</p>
                               </div>
                             </div>
                           </article>
