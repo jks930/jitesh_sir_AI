@@ -46,7 +46,7 @@ export default function Services() {
                                     <div className="icon-box icon-box-body">
                                         <h4 className="title">Robotic Automation</h4>
                                         <p className="icon-box-description">Deploy collaborative cobots and autonomous robotic arms to optimize precision manufacturing assembly.</p>
-                                        <div className="guten-element guten-button-wrapper guten-ly0OuW"><a className="guten-button guten-button-sm" href="/services"><span>Read More</span></a></div>
+                                        <div className="guten-element guten-Mv6sUA"><a className="guten-button guten-button-sm" href="/services"><span>Read More</span></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ export default function Services() {
                                     <div className="icon-box icon-box-body">
                                         <h4 className="title">AI For Conversation</h4>
                                         <p className="icon-box-description">Integrate Next-Gen Large Language Models (LLMs) and smart chatbot agents to automate support operations.</p>
-                                        <div className="guten-element guten-button-wrapper guten-fXZoQ3"><a className="guten-button guten-button-sm" href="/services"><span>Read More</span></a></div>
+                                        <div className="guten-element guten-Mv6sUA"><a className="guten-button guten-button-sm" href="/services"><span>Read More</span></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@ export default function Services() {
                                     <div className="icon-box icon-box-body">
                                         <h4 className="title">Internet of things</h4>
                                         <p className="icon-box-description">Connect industrial sensors, smart nodes, and controllers for real-time telemetry and remote operation tracking.</p>
-                                        <div className="guten-element guten-button-wrapper guten-ok69W7"><a className="guten-button guten-button-sm" href="/services"><span>Read More</span></a></div>
+                                        <div className="guten-element guten-Mv6sUA"><a className="guten-button guten-button-sm" href="/services"><span>Read More</span></a></div>
                                     </div>
                                 </div>
                             </div>
